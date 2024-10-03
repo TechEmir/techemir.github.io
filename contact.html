@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- For IE compatibility -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="TechEmir - Your reliable IT Support and Solutions provider. Specialising in IT Support, Security, Automation, and Device Recycling.">
+    <meta name="keywords" content="IT Support, Security, Automation, Device Recycling, TechEmir, Work From Home">
+    <meta name="author" content="TechEmir">
+
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:title" content="TechEmir - IT Support and Solutions">
+    <meta property="og:description" content="Your reliable provider for IT Support, Security, Automation, and more.">
+    <meta property="og:image" content=""> <!-- Update this link -->
+    <meta property="og:url" content="https://www.techemir.com">
+    <meta property="og:type" content="website">
+
+    <!-- Title -->
+    <title>TechEmir</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-32x32.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <!-- Preload Critical CSS -->
+    <link rel="preload" href="css/styles.css" as="style">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- HEADER: Contact and Navigation -->
+<header class="fixed-top">
+
+    <!-- Contact Section -->
+    <section class="header-contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-start">
+                    <!-- Email -->
+                    <i class="fas fa-envelope" aria-label="Email"></i> info@techemir.co.uk
+                    <span class="mx-3">|</span>
+                    <!-- Phone -->
+                    <i class="fas fa-phone" aria-label="Phone"></i> +44 7865 797072
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation Section -->
+    <section class="header-navigation">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+
+                <!-- Logo and Company Name -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/logo/logo_2.png" alt="TechEmir Logo" width="60" class="d-inline-block align-text-center" loading="lazy">
+                    TechEmir.
+                </a>
+
+                <!-- Burger Menu for Smaller Screens -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Nav Links -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#services-section">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </section>
+
+</header>
+
+<!-- MAIN CONTENT -->
+<main>
+    <!-- CONTACT SECTION -->
+    <section id="contact-section" class="contact-section py-sm-5 pb-5">
+        <div class="container">
+            <div class="row">
+
+                <!-- Left Column: Contact Content -->
+                <div class="col-md-6">
+                    <h1>Get In Touch</h1>
+                    <h4>Have a Question? I'm here to help.</h4>
+                    <div class="divider-secondary my-3"></div>
+                    <p>I offer a wide range of services, so feel free to reach out with any enquiries.</p>
+                    <p><strong>Phone:</strong> +44 7865 797072</p>
+                    <p><strong>Email:</strong> info@techemir.co.uk</p>
+                    <h4>Opening Times</h4>
+                    <p><strong>Mon - Fri:</strong> 24/7</p>
+                    <p><strong>Sat - Sun:</strong> 09:00 AM to 09:00 PM</p>
+                </div>
+
+                <!-- Right Column: Contact Form -->
+                <div class="col-md-6">
+                    <form action="https://formsubmit.co/info@techemir.co.uk" method="POST">
+                        <!-- First Name -->
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label">First Name <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="firstName" name="firstName" required>
+                        </div>
+
+                        <!-- Last Name -->
+                        <div class="mb-3">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" name="lastName">
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="tel" class="form-control" id="phone" name="phone">
+                        </div>
+
+                        <!-- Email -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+
+                        <!-- Reason For Contact -->
+                        <div class="mb-3">
+                            <label for="reason" class="form-label">Reason for Contact <span class="text-danger">*</span></label>
+                            <select class="form-select" id="reason" name="reason" required>
+                                <option value="" disabled selected>Select a service or other</option>
+                                <option value="social-media-management">Social Media Management</option>
+                                <option value="it-support">IT Support</option>
+                                <option value="automation">Automation</option>
+                                <option value="home-solutions">Home Solutions</option>
+                                <option value="internet-security">Internet Security</option>
+                                <option value="device-recycling">Device Recycling</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <!-- Client Type -->
+                        <div class="mb-3">
+                            <label for="clientType" class="form-label">Client Type</label>
+                            <select class="form-select" id="clientType" name="clientType">
+                                <option value="" disabled selected>Select...</option>
+                                <option value="business">Business</option>
+                                <option value="individual">Individual</option>
+                            </select>
+                        </div>
+
+                        <!-- Message -->
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
+                            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-secondary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- FOOTER: Social Media, About Us, Useful Links, Services, Copyright -->
+<footer>
+
+    <!-- First Row -->
+    <section class="footer-first">
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- Left Column: Title -->
+                <div class="col-md-6 col-12 d-flex align-items-center justify-content-md-start justify-content-center text-center text-md-start pb-3 pb-md-0">
+                    <h3>Get Connected</h3>
+                </div>
+
+                <!-- Right Column: Social Icons -->
+                <div class="col-md-6 col-12 d-flex justify-content-md-end justify-content-center align-items-center">
+                    <a href="https://facebook.com" target="_blank" class="text-white mx-2">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="text-white mx-2">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="text-white mx-2">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="text-white mx-2">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Second Row -->
+    <section class="footer-second">
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- First Column: About -->
+                <div class="col-md-4 col-12 text-md-left my-md-3">
+                    <!-- Title -->
+                    <h4>About Us</h4>
+                    <div class="divider-secondary my-3"></div>
+                    <p>Delivering personalised IT solutions and support for both businesses and individuals. From security to device recycling, we simplify technology so you can focus on what really matters.</p>
+                </div>
+
+                <!-- Second Column: Useful Links -->
+                <div class="col-md-4 col-12 text-md-center my-md-3">
+                    <h4>Useful Links</h4>
+                    <div class="divider-primary my-3 d-none d-md-block"></div>
+                    <div class="divider-secondary my-3 d-md-none"></div>
+                    <p><a href="privacy_policy.html">Privacy Policy</a></p>
+                    <p><a href="terms_of_service.html">Terms of Service</a></p>
+                </div>
+
+                <!-- Third Column: Extra -->
+                <div class="col-md-4 col-12 text-md-right my-md-3">
+                    <h4>Opening Times</h4>
+                    <div class="divider-third my-3 d-none d-md-block"></div>
+                    <div class="divider-secondary my-3 d-md-none"></div>
+                    <p><strong>Mon - Fri:</strong> 24/7</p>
+                    <p><strong>Sat - Sun:</strong> 09:00 AM to 09:00 PM</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Third Row -->
+    <section class="footer-third py-3 text-center">
+        <div class="container">
+            <p class="text-white mb-0">&copy; 2024 TechEmir. All Rights Reserved.</p>
+        </div>
+    </section>
+
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
